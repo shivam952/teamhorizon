@@ -563,7 +563,7 @@ h3.prize {
 @media (max-width: 760px){
     .img-fluid {
        align-self: center;
-       margin-left: 26px;
+       margin-left: 15px;
        margin-bottom: 3px;
     }
 }
