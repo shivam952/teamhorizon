@@ -564,6 +564,7 @@ h3.prize {
     .img-fluid {
        align-self: center;
        margin-left: 15px;
+       margin-right:25px;
        margin-bottom: 3px;
     }
 }
