@@ -72,13 +72,14 @@ section {
 @media (max-width: 768px){
     .img-logo {
        max-height: 300px;
-       align-self: center;
-       margin-right: 30px;
-       margin-left: 20px;;
+       
+       margin-right:40px;
+       margin-left:2%;
        margin-bottom: 20px;;
     }
     .aboutteam{
         text-align: center;
+        margin-right: 30px;
     }
 }
 @media (max-width: 768px){
@@ -576,7 +577,7 @@ h3.prize {
     margin-bottom: 3px;
 }
 
-@media (max-width: 760px){
+@media (max-width: 768px){
     .gallery{
         display: none;
     }
@@ -608,11 +609,13 @@ h3.prize {
 #quote-carousel .carousel-control.left 
 {
   left: -12px;
+  color: #ee9a14;
 }
 /* Next button  */
 #quote-carousel .carousel-control.right 
 {
   right: -12px !important;
+  color: #ee9a14;
 }
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators 
@@ -635,8 +638,7 @@ h3.prize {
 {
   width: 275px;
   height: 275px;
-  margin-left:50px;
-  margin-right:30px;
+  margin-left:72px;
 }
 /* End carousel */
 
@@ -683,7 +685,8 @@ h3.prize {
         display: block;
     }
     #quote-carousel .carousel-indicators {
-        bottom: -10px !important;  
+        bottom: -10px !important; 
+        color: #fb8e00; 
     }
     #quote-carousel .carousel-indicators li {
         display: inline-block;
@@ -810,7 +813,13 @@ h3.faq {
     line-height: 28px;
     margin-bottom: 5px;
     text-align: left
-} */
+}
+ */
+ @media (max-width:768px){
+#FAQ{
+    padding-left:5%;
+}
+ }
 #FAQ .card{
   border: #444;
 
